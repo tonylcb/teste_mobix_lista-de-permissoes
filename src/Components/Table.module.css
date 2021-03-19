@@ -91,6 +91,7 @@ input[type='checkbox'] {
 @media(max-width:400px) {
   .topic th{  
     font-size: 0.75rem;
+    padding-left: 7px;
   }
   thead th{
     font-size: 0.75rem;
