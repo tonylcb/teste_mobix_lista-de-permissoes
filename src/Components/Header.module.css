@@ -1,0 +1,12 @@
+.header {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.625rem;
+  margin-bottom: 30px;
+}
+
+@media(max-width: 500px) {
+  .header {
+    font-size: 1.375rem;
+  }
+}

@@ -1,0 +1,67 @@
+table {
+  width: 80vw;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 40px;
+}
+.topic {
+  background: #f8f8f8;
+}
+.topic th{  
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-align: start;
+  padding-left: 17px;
+  cursor: default;
+}
+
+.subtopic th{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-left: 17px;
+  text-align: start;
+}
+
+td {
+  text-align: center;
+  width: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+tr:first-child th{
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+tr:nth-child(2) {
+background-color: #F1EFEF;
+}
+
+
+.inactive {
+  display: none !important;
+  background: black;
+}
+
+@media(max-width:500px) {
+  .topic th{  
+    font-size: 0.875rem;
+  }
+  .subtopic th{
+    font-size: 0.75rem;
+  }
+  tr:first-child th{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
+}
