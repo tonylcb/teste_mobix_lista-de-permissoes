@@ -53,15 +53,29 @@ background-color: #F1EFEF;
 
 @media(max-width:500px) {
   .topic th{  
+    font-size: 1rem;
+  }
+  .subtopic th{
     font-size: 0.875rem;
+  }
+  tr:first-child th{
+    font-size: .875rem;
+  }
+  td {
+    width: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media(max-width:400px) {
+  .topic th{  
+    font-size: .75rem;
   }
   .subtopic th{
     font-size: 0.75rem;
   }
   tr:first-child th{
-    text-align: center;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 }
