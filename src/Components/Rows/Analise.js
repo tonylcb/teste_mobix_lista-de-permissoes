@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../Table.module.css';
 import { GlobalContext } from '../GlobalContext';
+import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 
 const Analise = () => {
   const global = React.useContext(GlobalContext);
@@ -58,7 +59,12 @@ const Analise = () => {
     <>
       <tr className={styles.topic}>
         <th scope="col" onClick={clickAnalise}>
-          Análise
+          Análise{' '}
+          {analise ? (
+            <IoIosArrowUp className={styles.icon} />
+          ) : (
+            <IoIosArrowDown className={styles.icon} />
+          )}
         </th>
         <td>
           <input

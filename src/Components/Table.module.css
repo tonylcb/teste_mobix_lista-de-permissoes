@@ -5,7 +5,20 @@ table {
 
 tr {
   height: 40px;
+  animation: slideDown 0.6s forwards;
 }
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 .topic {
   background: #f8f8f8;
 }
@@ -16,6 +29,10 @@ tr {
   text-align: start;
   padding-left: 17px;
   cursor: default;
+}
+
+.icon {
+  vertical-align: middle;
 }
 
 .subtopic th{
@@ -42,7 +59,7 @@ tr:first-child th{
 }
 
 tr:nth-child(2) {
-background-color: #F1EFEF;
+  background-color: #F1EFEF;
 }
 
 

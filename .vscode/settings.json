@@ -4,6 +4,6 @@
     ".gitignore":true,
     "package.json": true,
     "yarn.lock": true,
-    "public": true
+    "public": false
   }
 }
