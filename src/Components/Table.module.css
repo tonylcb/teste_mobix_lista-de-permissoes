@@ -22,6 +22,7 @@ tr {
 .topic {
   background: #f8f8f8;
 }
+
 .topic th{  
   font-family: Roboto;
   font-weight: 500;
@@ -63,7 +64,7 @@ input[type='checkbox'] {
   cursor: pointer;
 }
 
-tr:nth-child(2) {
+.topic:nth-child(1) {
   background-color: #F1EFEF;
 }
 
