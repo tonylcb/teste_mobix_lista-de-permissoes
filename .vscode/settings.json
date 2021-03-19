@@ -4,6 +4,7 @@
     ".gitignore":true,
     "package.json": true,
     "yarn.lock": true,
-    "public": false
+    "public": false,
+    ".vercel": true
   }
 }

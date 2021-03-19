@@ -30,8 +30,7 @@ const Button = () => {
   ];
 
   function handleClick() {
-    setList(tableList);
-    console.log(list);
+    setList(console.log(tableList));
   }
 
   return (

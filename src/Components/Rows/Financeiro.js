@@ -7,7 +7,6 @@ const Financeiro = () => {
   const global = React.useContext(GlobalContext);
 
   const [financeiro, setFinanceiro] = React.useState(false);
-
   function clickFinanceiro() {
     setFinanceiro((active) => !active);
   }
@@ -87,7 +86,7 @@ const Financeiro = () => {
 
       {financeiro ? (
         <>
-          <tr className={styles.subtopic} financeiro={financeiro}>
+          <tr className={styles.subtopic}>
             <th scope="col">Entradas</th>
             <td>
               <input
