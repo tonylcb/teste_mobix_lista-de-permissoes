@@ -29,6 +29,7 @@ tr {
   text-align: start;
   padding-left: 17px;
   cursor: default;
+  white-space: nowrap;
 }
 
 .icon {
@@ -82,6 +83,9 @@ tr:nth-child(2) {
     width: 0px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  table {
+    width: 90vw;
   }
 }
 
