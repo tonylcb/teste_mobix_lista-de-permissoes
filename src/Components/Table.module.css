@@ -52,7 +52,7 @@ td {
   box-sizing: border-box;
 }
 
-tr:first-child th{
+thead tr:first-child th{
   text-align: center;
   font-family: Roboto;
   font-weight: 500;

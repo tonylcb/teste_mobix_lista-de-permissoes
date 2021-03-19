@@ -76,8 +76,8 @@ const Table = () => {
   }
 
   return (
-    <main>
-      <table>
+    <table>
+      <thead>
         <tr>
           <td></td>
           <th scope="col">Ver listagem</th>
@@ -86,7 +86,8 @@ const Table = () => {
           <th scope="col">Editar</th>
           <th scope="col">Deletar</th>
         </tr>
-
+      </thead>
+      <tbody>
         <tr className={styles.topic}>
           <th scope="col">Todos</th>
           <td>
@@ -203,8 +204,8 @@ const Table = () => {
         <Customizacao />
 
         <Financeiro />
-      </table>
-    </main>
+      </tbody>
+    </table>
   );
 };
 
