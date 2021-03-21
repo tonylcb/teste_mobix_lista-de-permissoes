@@ -78,10 +78,12 @@ input[type='checkbox'] {
   .subtopic th{
     font-size: .875rem;
   }
+  
   td {
     width: 0px;
     padding-left: 10px;
     padding-right: 10px;
+    
   }
   table {
     width: 90vw;
@@ -91,12 +93,23 @@ input[type='checkbox'] {
 @media(max-width:400px) {
   .topic th{  
     font-size: 0.75rem;
-    padding-left: 7px;
-  }
-  thead th{
-    font-size: 0.75rem;
+    padding-left: 10px;
   }
   .subtopic th{
     font-size: 0.75rem;
+    padding-left: 10px;
+  }
+  .topic td:last-child, .subtopic td:last-child{
+    padding-right: 17px;
+  }
+
+  thead th{
+    font-size: 0.75rem;
+  }
+  thead tr th:last-child{
+    padding-right: 7px;
+  }
+  table {
+    width: 100vw;
   }
 }
