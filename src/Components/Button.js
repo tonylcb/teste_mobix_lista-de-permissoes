@@ -35,13 +35,15 @@ const Button = () => {
   }
 
   return (
-    <button
-      type="submit"
-      onClick={handleClick}
-      className={styles.buttonCadastro}
-    >
-      CADASTRAR
-    </button>
+    <footer>
+      <button
+        type="submit"
+        onClick={handleClick}
+        className={styles.buttonCadastro}
+      >
+        CADASTRAR
+      </button>
+    </footer>
   );
 };
 

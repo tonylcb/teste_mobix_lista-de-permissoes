@@ -111,5 +111,7 @@ input[type='checkbox'] {
   }
   table {
     width: 100vw;
+    margin-bottom: 80px;
+    margin-top: 80px;
   }
 }
